@@ -4,7 +4,7 @@ import requests
 app = Flask(__name__)
 
 # ✅ Your Hugging Face API key
-HF_API_KEY = "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"
+HF_API_KEY = "Place Your API_KEY"
 API_URL = "https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.1"
 HEADERS = {
     "Authorization": f"Bearer {HF_API_KEY}",
