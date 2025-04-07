@@ -13,7 +13,7 @@ HEADERS = {
 
 def ask_mistral(prompt):
     payload = {
-        "inputs": f"{prompt}",
+        "inputs": f"You:- {prompt} \n Bot:-",
         "parameters": {
             "max_new_tokens": 200,
             "temperature": 0.7
