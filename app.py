@@ -5,7 +5,8 @@ app = Flask(__name__)
 
 # ✅ Your Hugging Face API key
 HF_API_KEY = "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"
-API_URL = "https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.1"
+# API_URL = "https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.1"
+API_URL = "https://api-inference.huggingface.co/models/HuggingFaceH4/zephyr-7b-alpha"
 HEADERS = {
     "Authorization": f"Bearer {HF_API_KEY}",
     "Content-Type": "application/json"
